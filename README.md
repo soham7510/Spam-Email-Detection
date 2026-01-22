@@ -1,6 +1,52 @@
-# Spam Email Classification using NLP and Machine Learning<br>
-Spam email classification is a powerful tool that leverages NLP and machine learning to protect your inbox from spam. With an intuitive interface built on Streamlit, it accurately identifies and filters spam, ensuring a secure and clutter-free email experience.<br><br>
-# Features:
-1. Email Classification: Enter an email and classify it as either Spam or Not Spam.
-2. Model Performance: View accuracy, confusion matrix, and classification report on the dataset.
-3. User-Friendly Interface: The result is displayed with a colored background to clearly indicate whether an email is Spam (red) or Not Spam (green).
+# 📧 Spam Email Classifier
+
+## 📌 Project Name
+Spam Email Classifier
+
+---
+
+## 🧠 Abstract
+The **Spam Email Classifier** is a machine learning–based application that automatically classifies emails as **Spam** or **Not Spam (Ham)**. The system uses Natural Language Processing (NLP) techniques to preprocess email text and applies supervised machine learning algorithms to make accurate predictions. This project helps reduce unwanted emails, improves inbox organization, and enhances cybersecurity by filtering malicious or promotional content.
+
+---
+
+## 🌐 Domain
+- Machine Learning
+- Artificial Intelligence
+- Natural Language Processing (NLP)
+- Cyber Security
+
+---
+
+## 🛠️ Technologies Used
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- NLTK / spaCy
+- Flask (optional – for web application)
+
+---
+
+## 🔧 Tools Used
+- VS Code
+- Jupyter Notebook
+- Git & GitHub
+- Postman (for API testing – optional)
+
+---
+
+## 📂 Project Structure
+spam-email-classifier/
+│
+├── dataset/
+│ └── spam.csv
+│
+├── model/
+│ └── spam_classifier.pkl
+│
+├── train_model.py
+├── predict.py
+├── app.py
+├── requirements.txt
+└── README.md
